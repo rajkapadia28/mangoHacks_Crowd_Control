@@ -1,0 +1,24 @@
+table {
+  table-layout: fixed;
+  text-align: center;
+  /* background-color: aqua; */
+  width: 60%;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: rgba(21, 253, 242, 0.541);
+}
+
+#rating {
+  width: 0%;
+}
